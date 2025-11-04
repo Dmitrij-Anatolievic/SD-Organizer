@@ -1,5 +1,3 @@
-# SD-Organizer
-Applicativo Python/PyQt per l'automazione dell'archiviazione fotografica.
 # SD Organizer (Applicativo Desktop)
 
 > Un'applicazione desktop Python/PyQt per automatizzare l'archiviazione, la rinomina e il backup di migliaia di foto in pochi secondi, risolvendo il problema dell'ordinamento manuale.
