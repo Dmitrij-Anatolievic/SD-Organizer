@@ -50,7 +50,7 @@ L'utente collega la SD, sceglie la destinazione, inserisce un nome per l'evento 
 
 *(Questa è la tua protezione anti-furto)*
 
-**© 2024 Dmitrij Musella - Tutti i diritti riservati.**
+**© 2025 Dmitrij Musella - Tutti i diritti riservati.**
 
 Il codice sorgente di questo progetto è **privato** e non può essere copiato, modificato o distribuito senza esplicito consenso scritto da parte dell'autore.
 
