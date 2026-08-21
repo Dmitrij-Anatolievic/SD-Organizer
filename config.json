@@ -1,0 +1,224 @@
+{
+    "APP_CONFIG": {
+        "PICTURES_PATH": "C:/Users/Dmitr/Pictures",
+        "LOGS_PATH": "C:/Users/Dmitr/Pictures/logs",
+        "MIN_FREE_SPACE_GB": 5,
+        "FOLDER_STRUCTURE_TEMPLATE": "{anno}/{mese_nome} {anno}/{giorno} {mese_nome} {anno}_{soggetto}",
+        "FILENAME_TEMPLATE": "{anno}{mese}{giorno}_{ore}{minuti}{secondi}_{soggetto}"
+    },
+    "CONFIGURATIONS": {
+        "Nikon": {
+            "SD_FOLDER_NAMES_CANDIDATES": [
+                "100NIKON",
+                "101NIKON",
+                "102NIKON",
+                "103NIKON",
+                "104NIKON",
+                "105NIKON",
+                "106NIKON",
+                "107NIKON",
+                "103NZ_FC",
+                "DCIM"
+            ],
+            "FILE_DESTINATIONS": {
+                ".jpg": "Images/JPEG",
+                ".jpeg": "Images/JPEG",
+                ".heic": "Images/HEIF",
+                ".heif": "Images/HEIF",
+                ".nef": "Images/RAW",
+                ".nrw": "Images/RAW",
+                ".raw": "Images/RAW",
+                ".mov": "Videos",
+                ".mp4": "Videos"
+            }
+        },
+        "Fujifilm": {
+            "SD_FOLDER_NAMES_CANDIDATES": [
+                "100_FUJI",
+                "101_FUJI",
+                "DCIM"
+            ],
+            "FILE_DESTINATIONS": {
+                ".jpg": "Images/JPEG",
+                ".jpeg": "Images/JPEG",
+                ".raf": "Images/RAW",
+                ".dng": "Images/RAW",
+                ".mov": "Videos",
+                ".mp4": "Videos"
+            }
+        },
+        "Olympus": {
+            "SD_FOLDER_NAMES_CANDIDATES": [
+                "100_OLYMP",
+                "DCIM"
+            ],
+            "FILE_DESTINATIONS": {
+                ".jpg": "Images/JPEG",
+                ".jpeg": "Images/JPEG",
+                ".orf": "Images/RAW",
+                ".mov": "Videos",
+                ".mp4": "Videos"
+            }
+        },
+        "Canon": {
+            "SD_FOLDER_NAMES_CANDIDATES": [
+                "100CANON",
+                "101CANON",
+                "DCIM"
+            ],
+            "FILE_DESTINATIONS": {
+                ".jpg": "Images/JPEG",
+                ".jpeg": "Images/JPEG",
+                ".cr2": "Images/RAW",
+                ".cr3": "Images/RAW",
+                ".dng": "Images/RAW",
+                ".mov": "Videos",
+                ".mp4": "Videos"
+            }
+        },
+        "Hasselblad": {
+            "SD_FOLDER_NAMES_CANDIDATES": [
+                "DCIM",
+                "HBL"
+            ],
+            "FILE_DESTINATIONS": {
+                ".jpg": "Images/JPEG",
+                ".jpeg": "Images/JPEG",
+                ".3fr": "Images/RAW",
+                ".dng": "Images/RAW",
+                ".mp4": "Videos",
+                ".mov": "Videos"
+            }
+        },
+        "Leica": {
+            "SD_FOLDER_NAMES_CANDIDATES": [
+                "100LEICA",
+                "101LEICA",
+                "102LEICA",
+                "103LEICA",
+                "104LEICA",
+                "105LEICA",
+                "106LEICA",
+                "107LEICA",
+                "DCIM"
+            ],
+            "FILE_DESTINATIONS": {
+                ".jpg": "Images/JPEG",
+                ".dng": "Images/RAW",
+                ".rwl": "Images/RAW",
+                ".mp4": "Videos",
+                ".mov": "Videos"
+            }
+        },
+        "Lumix": {
+            "SD_FOLDER_NAMES_CANDIDATES": [
+                "100_PANA",
+                "101_PANA",
+                "102_PANA",
+                "103_PANA",
+                "104_PANA",
+                "105_PANA",
+                "106_PANA",
+                "107_PANA",
+                "DCIM"
+            ],
+            "FILE_DESTINATIONS": {
+                ".jpg": "Images/JPEG",
+                ".rw2": "Images/RAW",
+                ".dng": "Images/RAW",
+                ".mp4": "Videos",
+                ".mov": "Videos"
+            }
+        },
+        "Kodak": {
+            "SD_FOLDER_NAMES_CANDIDATES": [
+                "100KODAK",
+                "DCIM"
+            ],
+            "FILE_DESTINATIONS": {
+                ".jpg": "Images/JPEG",
+                ".jpeg": "Images/JPEG",
+                ".kdc": "Images/RAW",
+                ".dng": "Images/RAW",
+                ".mov": "Videos",
+                ".mp4": "Videos"
+            }
+        },
+        "Sony": {
+            "SD_FOLDER_NAMES_CANDIDATES": [
+                "100MSDCF",
+                "101MSDCF",
+                "DCIM"
+            ],
+            "FILE_DESTINATIONS": {
+                ".jpg": "Images/JPEG",
+                ".jpeg": "Images/JPEG",
+                ".arw": "Images/RAW",
+                ".dng": "Images/RAW",
+                ".mp4": "Videos",
+                ".mov": "Videos",
+                ".m2ts": "Videos"
+            }
+        },
+        "Pentax": {
+            "SD_FOLDER_NAMES_CANDIDATES": [
+                "100_PENTX",
+                "101_PENTX",
+                "DCIM"
+            ],
+            "FILE_DESTINATIONS": {
+                ".jpg": "Images/JPEG",
+                ".jpeg": "Images/JPEG",
+                ".pef": "Images/RAW",
+                ".dng": "Images/RAW",
+                ".mov": "Videos",
+                ".mp4": "Videos",
+                ".avi": "Videos"
+            }
+        },
+        "Sigma": {
+            "SD_FOLDER_NAMES_CANDIDATES": [
+                "100SIGMA",
+                "DCIM"
+            ],
+            "FILE_DESTINATIONS": {
+                ".jpg": "Images/JPEG",
+                ".jpeg": "Images/JPEG",
+                ".x3f": "Images/RAW",
+                ".dng": "Images/RAW",
+                ".mov": "Videos",
+                ".mp4": "Videos"
+            }
+        },
+        "GoPro": {
+            "SD_FOLDER_NAMES_CANDIDATES": [
+                "100GOPRO",
+                "101GOPRO",
+                "DCIM"
+            ],
+            "FILE_DESTINATIONS": {
+                ".jpg": "Images/JPEG",
+                ".jpeg": "Images/JPEG",
+                ".gpr": "Images/RAW",
+                ".mp4": "Videos",
+                ".mov": "Videos",
+                ".lrv": "Videos/LowResolution",
+                ".h265": "Videos"
+            }
+        },
+        "DJI": {
+            "SD_FOLDER_NAMES_CANDIDATES": [
+                "100MEDIA",
+                "DCIM"
+            ],
+            "FILE_DESTINATIONS": {
+                ".jpg": "Images/JPEG",
+                ".jpeg": "Images/JPEG",
+                ".dng": "Images/RAW",
+                ".mp4": "Videos",
+                ".mov": "Videos",
+                ".m2ts": "Videos"
+            }
+        }
+    }
+}

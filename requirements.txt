@@ -1,0 +1,16 @@
+# SD Organizer V3 Enhanced - Requirements
+PyQt6>=6.4.0
+Pillow>=10.0.0
+psutil>=5.9.0
+wmi>=1.5.1; sys_platform == 'win32'
+
+# Database
+# SQLite3 is included in Python standard library
+
+# Image Processing
+rawpy>=0.18.0  # RAW file processing
+imageio>=2.31.0  # Image I/O support
+imageio-ffmpeg>=0.4.8  # For video thumbnail support
+
+# Optional notifications
+# win10toast>=0.9; sys_platform == 'win32'  # Uncomment for Windows notifications
